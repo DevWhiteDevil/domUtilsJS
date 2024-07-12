@@ -261,7 +261,7 @@ const domUtils = {
       }
     }
   };
-  
+  export default domUtils;
   // Example usage:
   // const element = domUtils.selector('#myElement');
   // domUtils.addClass(element, 'active');
