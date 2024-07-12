@@ -233,7 +233,6 @@ const domUtils = {
       };
       tick();
     },
-  
     // Fade out an element
     fadeOut: function(element, duration = 400) {
       element.style.opacity = 1;
@@ -251,7 +250,6 @@ const domUtils = {
       };
       tick();
     },
-  
     // Toggle visibility
     toggleVisibility: function(element) {
       if (element.style.display === 'none' || window.getComputedStyle(element).display === 'none') {
