@@ -259,3 +259,5 @@ const domUtils = {
       }
     }
   };
+
+export domUtils;
